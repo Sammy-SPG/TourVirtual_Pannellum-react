@@ -1,0 +1,25 @@
+.modal-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.modal-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.modal-container::-webkit-scrollbar-button:increment,.modal-container::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.modal-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.modal-container::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
